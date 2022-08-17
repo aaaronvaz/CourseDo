@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="1dp">
+
+        <TextView
+            android:id="@+id/customlayout_loc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/customlayout_loc"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/customlayout_oldlabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/customlayout_oldlabel"
+            android:textColor="@color/teal_700"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/customlayout_oldname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/customlayout_newlabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/customlayout_newlabel"
+            android:textColor="@color/teal_700"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/customlayout_newfname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/customlayout_fnamehint"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/customlayout_newlname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/customlayout_lnamehint"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/customlayout_submit" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/customlayout_cancel" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

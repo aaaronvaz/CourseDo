@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add_classroom"
+        android:title="Add Classroom"
+        android:icon="@drawable/add_class_icon"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/classroom_count"
+        android:title="Classroom Count"
+        android:visible="true"
+        />
+    <item
+        android:id="@+id/delete_classroom"
+        android:title="Delete Classroom"
+        android:visible="true"
+        />
+    <item
+        android:id="@+id/help"
+        android:title="Help"
+        android:visible="true"/>
+
+</menu>
